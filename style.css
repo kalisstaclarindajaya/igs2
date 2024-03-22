@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  margin-top: 55px;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 30px;
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid gainsboro;
+}
+
+.nav-left {
+  display: flex;
+  flex: row;
+  gap: 10px;
+}
+
+.nav-left button{
+  border: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.nav-left button img{
+  height: 35px;
+  background-color: gainsboro;
+}
+
+.nav-left .logo {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+.nav-left .logo img{
+  height: 35px;
+}
+
+.nav-left .logo p {
+  width: 80px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.nav-left .language{
+  /* display: flex;
+  flex-direction: row; */
+  margin: 5px;
+}
+
+.nav-left .language img{
+  height: 10px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.nav-left .language p {
+  font-size: 14px;
+  margin: 2px;
+  color: gray;
+  float: left;
+}
+
+.nav-right {
+  display: flex;
+  flex: row;
+  gap: 10px;
+}
+
+.nav-right .notif img {
+  width: 20px;
+  margin: 5px;
+}
+
+.nav-right .name p {
+  color: red;
+  margin: 5px;
+}
+
+.nav-right .profile img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.body {
+  margin: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.body .box {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+}
+
+.body .main {
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.body .right{
+  width: 30%;
+}
+
+.right img {
+  width: 360px;
+}
+
+.body .left{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid gainsboro;
+  width: 860px;
+  height: 130px;
+}
+
+.search p {
+  padding: 15px;
+  color: grey;
+  font-size: 18px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+}
+
+.input input {
+  border: 1px solid rgb(158, 158, 158);
+  padding: 10px;
+}
+
+.input button {
+  border: 1px solid rgb(158, 158, 158);
+  background-color: red;
+}
+
+.input img {
+  height: 20px;
+  margin: 5px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid gainsboro;
+  width: 860px;
+  height: fit-content;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: grey;
+  margin: 15px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 15px;
+}
+
+.buttons button {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons p {
+  margin-top: 6px;
+}
+
+.buttons button img {
+  width: 25px;
+}
+
+.buttons button img.arrow {
+  width: 10px;
+  margin: 8px;
+}
+
+.button-right {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.button-right button img {
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.course-box-main {
+  display: grid;
+  width: 96%;
+  margin: 0px 13px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 5px;
+}
+
+.course-box {
+  background-color: white;
+  border: 1px solid grey;
+  height: 215px;
+  margin: 5px;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.course-box img{
+  width: 265px;
+  height: 150px;
+}
+
+.course-box > p {
+  color: gray;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 7px;
+}
+
+.course-box .progress-bar {
+  width: 255px;
+  height: 10px;
+  background-color: red;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15px;
+  margin-top: 7px;
+}
+
+.bar p {
+  font-size: 10px;
+  color: gray;
+  width: 50px;
+}
+
+.bar img {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.progress-bar p {
+  font-size: 8px;
+  margin: 1px;
+  margin-left: 90%;
+}
+
+.footer {
+  height: 30px;
+}
+
+.calender {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.calender-title {
+  height: 30px;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.calender-title p{
+  margin: 0px 20px;
+  width: fit-content;
+  color: grey;
+  font-size: 18px;
+}
+
+.calender-month {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 40px;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.calender-month p{
+  margin: 0px 20px;
+  width: fit-content;
+  color: red;
+  font-size: 14px;
+}
+
+.calender-days {
+  margin: 0px 43px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+.list-days{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.list-days h3 {
+  font-size: 13px;
+}
+
+.day {
+  color: grey;
+  font-size: 13px;
+  margin: 2px 4px;
+}
